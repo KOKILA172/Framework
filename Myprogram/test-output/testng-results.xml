@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-05T18:32:04 IST" name="Default suite" finished-at="2022-05-05T18:32:29 IST" duration-ms="24429">
+    <groups>
+    </groups>
+    <test started-at="2022-05-05T18:32:04 IST" name="Default test" finished-at="2022-05-05T18:32:29 IST" duration-ms="24429">
+      <class name="runner.TestExecution1">
+        <test-method is-config="true" signature="initialze()[pri:0, instance:runner.TestExecution1@12c7a01b]" started-at="2022-05-05T18:32:04 IST" name="initialze" finished-at="2022-05-05T18:32:07 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialze -->
+        <test-method signature="Basepagenavigation()[pri:0, instance:runner.TestExecution1@12c7a01b]" started-at="2022-05-05T18:32:07 IST" name="Basepagenavigation" finished-at="2022-05-05T18:32:28 IST" duration-ms="20939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basepagenavigation -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:runner.TestExecution1@12c7a01b]" started-at="2022-05-05T18:32:28 IST" name="tearDownMethod" finished-at="2022-05-05T18:32:28 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Basepagenavigation status=SUCCESS method=TestExecution1.Basepagenavigation()[pri:0, instance:runner.TestExecution1@12c7a01b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:runner.TestExecution1@12c7a01b]" started-at="2022-05-05T18:32:28 IST" name="teardown" finished-at="2022-05-05T18:32:29 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- runner.TestExecution1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
